@@ -7,7 +7,7 @@ This project aims to strengthen visibility into Windows system activities by usi
 
 
 
-📌 Why Use This?
+## 📌 Why Use This?
 Gain deeper insights into process creations, network connections, registry changes, and more
 
 Collect high-fidelity logs essential for threat hunting and forensic investigations
@@ -20,7 +20,7 @@ Strengthen your blue team capabilities with minimal overhead
 
 
 
-🚀 Getting Started
+## 🚀 Getting Started
 Download and install Sysmon if you haven’t already.
 
 Import the provided XML configuration file:
@@ -47,10 +47,10 @@ Validate logging through the Windows Event Viewer under: Applications and Servic
 ---------------------------------------------------------------------------------------------------------------
 
 
-📁 Files Included
+## 📁 Files Included
 sysmon-config.xml: The tuned configuration file for enhanced logging
 
-🛡️ Use Case
+## 🛡️ Use Case
 This configuration is ideal for:
 
   -SOC analysts and incident responders
@@ -61,7 +61,7 @@ This configuration is ideal for:
 
   ---------------------------------------------------------------------------------------------------------------
 
-📖 Resources
+## 📖 Resources
 
 [SwiftOnSecurity](https://github.com/SwiftOnSecurity/sysmon-config?tab=readme-ov-file)
 
