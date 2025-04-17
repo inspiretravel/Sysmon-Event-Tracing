@@ -28,19 +28,19 @@ sysmonconfig-export.xml
 
 
 - Install : Run with administrator rights
-
-<sysmon.exe -accepteula -i sysmonconfig-export.xml>
-
+```
+sysmon.exe -accepteula -i sysmonconfig-export.xml
+```
 
 - Update existing configuration : Run with administrator rights
+```
+sysmon.exe -c sysmonconfig-export.xml
+```
 
-<sysmon.exe -c sysmonconfig-export.xml>
-
-
-- Uninstall : Run with administrator rights
-
-<sysmon.exe -u>
-
+Uninstall : Run with administrator rights
+```
+sysmon.exe -u
+```
 
 Validate logging through the Windows Event Viewer under: Applications and Services Logs > Microsoft > Windows > Sysmon > Operational
 
